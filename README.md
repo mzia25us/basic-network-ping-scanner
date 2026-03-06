@@ -26,41 +26,6 @@ The project demonstrates how Python can interact with system networking tools to
 
 ---
 
-## Example Output
-
-```
-=== Network Ping Scanner ===
-
-Enter network prefix: 192.168.0
-Enter start host number: 1
-Enter end host number: 20
-
-Scanning network...
-
-Checking 192.168.0.1... ACTIVE
-Checking 192.168.0.2... No response
-Checking 192.168.0.235... ACTIVE
-
-=== Scan Summary ===
-Hosts scanned: 20
-Active hosts: 2
-Time taken: 3.21 seconds
-```
-
----
-
-## Project Structure
-
-```
-network-ping-scanner
-│
-├── ping_scanner.py
-├── README.md
-└── scan_results.txt
-```
-
----
-
 ## Technologies Used
 
 * Python
